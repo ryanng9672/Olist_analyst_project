@@ -103,7 +103,7 @@ RFM analysis is a marketing technique used to quantitatively rank and group cust
 
 # PPT/Project_file
 * ppt have our Improvement of Opinions [https://tome.app/ryan-e262/grouppjd-cltzhcae40fy0ll5y2u6gfg7a]
-* >>project_file<<(https://github.com/ryanng9672/Olist_analyst_project/tree/main/project_file)
+* [>>**project_file**<<](https://github.com/ryanng9672/Olist_analyst_project/tree/main/project_file)
   #project_file have pdf and pbix
   
 
