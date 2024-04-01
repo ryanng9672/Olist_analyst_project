@@ -50,5 +50,19 @@ trigrams_list = [trigram for sublist in trigrams_list for trigram in sublist]
 trigram_counts = Counter(trigrams_list)
 most_common_trigrams = trigram_counts.most_common(150)
 ```
+**RandomForestClassifier**
+#Machine Learning in python
+```shell
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=101)
+rf = RandomForestClassifier(n_estimators=100, random_state=101)
+rf.fit(X_train, y_train)
+predictions = rf.predict(X_test)
+accuracy = accuracy_score(y_test, predictions)
+conf_matrix = confusion_matrix(y_test, predictions)
+class_report = classification_report(y_test, predictions)
+#Giving up because of a 69% hit rate
+```
+
+
 
 
