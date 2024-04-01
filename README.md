@@ -95,6 +95,16 @@ The freight value is the shipping value associated with each order. The Freight 
 
 RFM analysis is a marketing technique used to quantitatively rank and group customers based on their purchasing patterns. RFM stands for Recency, Frequency, and Monetary value, each corresponding to a key customer trait. Recency measures how recently a customer made a purchase, Frequency assesses how often they make purchases, and Monetary value determines how much money they have spent on purchases over a specific period. This analysis helps businesses to identify high-value customers and develop targeted marketing strategies.
 
+# Technologies
+* Pandas
+* numpy
+* train_test_split
+*more in requirements.txt
+
+# PPT
+* ppt have our Improvement of Opinions [https://tome.app/ryan-e262/grouppjd-cltzhcae40fy0ll5y2u6gfg7a]
+  
+
 
 
 
