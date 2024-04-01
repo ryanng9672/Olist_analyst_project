@@ -21,6 +21,12 @@ After a customer purchases the product from Olist Store, a seller gets notified 
 * Map and compare report data with data from database query to validate the reports (functional testing)
 * Critically analyse relevant data using statistical methods (e.g. Predictive Modelling or Machine Learning)
 
+# SET_UP
+To Run this project, install it locally Or in Virtual Environment as your refercence, using Python Package Managers (pip) :
+```shell
+pip install -r requirements.txt
+```
+
 # python
 **data cleaing**
 ```shell
