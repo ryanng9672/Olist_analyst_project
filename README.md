@@ -20,4 +20,35 @@ After a customer purchases the product from Olist Store, a seller gets notified 
 * Visualise the company’s customers’ demographics, sales trend, orders by categories, orders changes by year, etc. and use Power BI to help make better decisions
 * Map and compare report data with data from database query to validate the reports (functional testing)
 * Critically analyse relevant data using statistical methods (e.g. Predictive Modelling or Machine Learning)
-  
+
+# python
+**data cleaing**
+```shell
+#def missing data
+def missing_info(data,num):
+    null_data = clean_df.isnull().sum().sort_values(ascending=False)
+    percent = clean_df.isnull().sum()/data.isnull().count()
+    missing_data = pd.concat([null_data,percent.apply(lambda x: format(x, '.2%'))],axis=1,keys=['T_missing','missing %'])
+#drop nall
+na_df=clean_df.dropna()
+#check duplicated
+na_df.duplicated()
+```
+**nltk**
+```shell
+#use the DeepL api to Translate English and find the keyword
+df_en['result'] = df_en['result'].astype(str)
+def extract_trigrams(text):
+    text = text.translate(str.maketrans('', '', string.punctuation)).lower()
+    tokens = word_tokenize(text)
+    trigrams = ngrams(tokens, 3)
+    return [' '.join(tri) for tri in trigrams]
+
+trigrams_list = df_en['result'].apply(extract_trigrams).tolist()
+trigrams_list = [trigram for sublist in trigrams_list for trigram in sublist]
+
+trigram_counts = Counter(trigrams_list)
+most_common_trigrams = trigram_counts.most_common(150)
+```
+
+
