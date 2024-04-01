@@ -68,26 +68,27 @@ conf_matrix = confusion_matrix(y_test, predictions)
 class_report = classification_report(y_test, predictions)
 #Giving up because of a 69% hit rate
 ```
-# Analysis
+# Analysis　（powerBI)
 The various analysis tasks are listed and explained below:
 **Joining data**
 The original data is used to derive multiple datasets by joins and manipulations. The Data manipulation and combinig jupyter notebook contains the step by step process and explanations.
 * Preliminary data analysis
 The Desktop Preliminary Data analysis contains the detailed analysis. This notebook visualizes and summarizes the original and the combined datasets, to find trends, patterns or faults. This analysis gives a holistic view of th dataset.
 
-GMV analysis
+＊＊GMV analysis＊＊
 An overarching examination of GMV will reveal the growth trajectory of Olist's sales. We will delve into the patterns and fluctuations in GMV across various timeframes, identifying peak periods and potential areas for expansion.Customer behavior analysis sheds light on the purchasing patterns that contribute significantly to GMV. Repeat purchase rates, average order value, and customer lifetime value are among the metrics analyzed to understand their impact on the platform's financial performance.
 
-Product analysis
+*＊Product analysis＊＊
 The objective of this analysis is to find the most popular products, popular product categories and category wise popular products in the Olist ecosystem. Further, the delivery times and product characteristics , are compared to popularity to find correlations in the data. The Product analysis notebook contains the detailed code.
 
-Reviews sentiment analysis
+＊＊Reviews sentiment analysis＊＊
 Sentiment analysis is carried out on the reviews offered by customers. The notebook contains Supervised and Unsupervised methods for sentiment analysis, Reviews Sentiment Analysis.
 
-Freight value prediction
+＊＊Freight value prediction＊＊
 The freight value is the shipping value associated with each order. The Freight value prediction notebook contains detailed model building steps to predict the shipping value for an order, given the distance between seller and customer, the dimensions and weight of the product. 
 
-RFM analysis
+＊＊RFM analysis＊＊
+RFM analysis is a marketing technique used to quantitatively rank and group customers based on their purchasing patterns. RFM stands for Recency, Frequency, and Monetary value, each corresponding to a key customer trait. Recency measures how recently a customer made a purchase, Frequency assesses how often they make purchases, and Monetary value determines how much money they have spent on purchases over a specific period. This analysis helps businesses to identify high-value customers and develop targeted marketing strategies.
 
 
 
