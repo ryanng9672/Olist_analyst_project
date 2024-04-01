@@ -99,7 +99,7 @@ RFM analysis is a marketing technique used to quantitatively rank and group cust
 * Pandas
 * numpy
 * train_test_split
-*more in requirements.txt
+* more in requirements.txt
 
 # PPT
 * ppt have our Improvement of Opinions [https://tome.app/ryan-e262/grouppjd-cltzhcae40fy0ll5y2u6gfg7a]
