@@ -68,7 +68,7 @@ conf_matrix = confusion_matrix(y_test, predictions)
 class_report = classification_report(y_test, predictions)
 #Giving up because of a 69% hit rate
 ```
-# Analysis（powerBI)(16Page)(https://app.powerbi.com/links/2N6xyywIlN?ctid=ed1bf5fb-9f74-42ae-9ecc-f244d532c626&pbi_source=linkShare)
+# Analysis（powerBI)(16Page)[Dashboard link](https://app.powerbi.com/links/2N6xyywIlN?ctid=ed1bf5fb-9f74-42ae-9ecc-f244d532c626&pbi_source=linkShare)
 The various analysis tasks are listed and explained below:
 **Joining data**
 The original data is used to derive multiple datasets by joins and manipulations. The Data manipulation and combinig jupyter notebook contains the step by step process and explanations.
