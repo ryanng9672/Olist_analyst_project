@@ -76,8 +76,10 @@ The original data is used to derive multiple datasets by joins and manipulations
 The Desktop Preliminary Data analysis contains the detailed analysis. This notebook visualizes and summarizes the original and the combined datasets, to find trends, patterns or faults. This analysis gives a holistic view of th dataset.
 
 **GMV analysis**
-
+![螢幕擷取畫面 2024-04-02 180458](https://github.com/ryanng9672/Olist_analyst_project/assets/158177590/6a03ad23-9a79-45c3-a3a6-ab56284657d9)
+![螢幕擷取畫面 2024-04-02 180517](https://github.com/ryanng9672/Olist_analyst_project/assets/158177590/ae83732b-7dbc-43d1-9832-254e2eae178b)
 An overarching examination of GMV will reveal the growth trajectory of Olist's sales. We will delve into the patterns and fluctuations in GMV across various timeframes, identifying peak periods and potential areas for expansion.Customer behavior analysis sheds light on the purchasing patterns that contribute significantly to GMV. Repeat purchase rates, average order value, and customer lifetime value are among the metrics analyzed to understand their impact on the platform's financial performance.
+
 
 **Product analysis**
 
