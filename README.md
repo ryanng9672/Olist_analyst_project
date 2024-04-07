@@ -4,7 +4,8 @@
 Your manager is asking you to critically analyse the provided datasets using Business Intelligence tools and provide some marketing findings / recommendations in a report format. The dataset has information of 100k orders made at multiple marketplaces in Brazil. Its features allow viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. A geolocation dataset that relates Brazilian zip codes to lat/lng coordinates is also integrated in the dataset.
 After a customer purchases the product from Olist Store, a seller gets notified to fulfill that order. Once the customer receives the product, or the estimated delivery date is due, the customer gets a satisfaction survey by email where they can give a note for the purchase experience and write down some comments.
 ![Alt text](https://miro.medium.com/v2/resize:fit:1200/1*keRx7Vf35vpi0s9WdjWV8A.png)
-
+# Table of Content
+* [Possible scopes of the marketing findings / recommendations from the dataset] (Possible scopes of the marketing findings / recommendations from the dataset)
 # Possible scopes of the marketing findings / recommendations from the dataset
 * Feedback Sentiment Analysis: Evaluate the polarity of the tweets as customer feedback positive, negative or neutra
 * Clustering: Some customers did not write a review. But why are they happy or mad?
