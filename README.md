@@ -5,14 +5,21 @@ Your manager is asking you to critically analyse the provided datasets using Bus
 After a customer purchases the product from Olist Store, a seller gets notified to fulfill that order. Once the customer receives the product, or the estimated delivery date is due, the customer gets a satisfaction survey by email where they can give a note for the purchase experience and write down some comments.
 ![Alt text](https://miro.medium.com/v2/resize:fit:1200/1*keRx7Vf35vpi0s9WdjWV8A.png)
 # Table of Content
-* [Possible scopes of the marketing findings / recommendations from the dataset] (Possible scopes of the marketing findings / recommendations from the dataset)
-# Possible scopes of the marketing findings / recommendations from the dataset
+* [Possible_scopes_of_the_marketing_findings/recommendations_from_the_dataset](#Possible_scopes_of_the_marketing_findings/recommendations_from_the_dataset)
+* [Project_Objectives](#Project_Objectives)
+* [SET_UP](#SET_UP)
+* [python](#python)
+* [Analysis](#Analysis)
+* [Technologies](#Technologies)
+* [PPT/Project_file](#PPT/Project_file)
+
+# Possible_scopes_of_the_marketing_findings/recommendations_from_the_dataset
 * Feedback Sentiment Analysis: Evaluate the polarity of the tweets as customer feedback positive, negative or neutra
 * Clustering: Some customers did not write a review. But why are they happy or mad?
 * Sales Prediction: With purchase date information you will be able to predict future sales.
 * Delivery Performance: You will also be able to work through delivery performance and find ways to optimize delivery times
 
-# Project Objectives
+# Project_Objectives
 * #Use Power BI to answer following questions
 * How many customers, orders, and orders per customer does the company have?
 * What is the number of customers by state?
